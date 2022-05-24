@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #1c1c1c;
+}
+
+.container {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+  left: 100px;
+  top: 83px;
+  background: #1f2937;
+}
+
+/* Heading */
+
+#heading {
+  position: absolute;
+  width: 354px;
+  height: 80px;
+  left: 52px;
+  top: 100px;
+
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 100%;
+  /* or 100% */
+
+  letter-spacing: -0.025em;
+
+  /* white */
+
+  color: #ffffff;
+}
+
+#para {
+  /* Supporting text */
+
+  position: absolute;
+  width: 372px;
+  height: 28px;
+  left: 52px;
+  top: 208px;
+
+  /* text-xl/leading-7/font-normal */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+
+  /* Medium grey */
+  color: #d5d4d8;
+}
+
+/* Button */
+input,
+#btn {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  width: 233px;
+  height: 42px;
+  left: 52px;
+  top: 287px;
+
+  background: #10b981;
+
+  /* shadow/sm */
+  border-radius: 10px;
+  border-width: 0;
+
+  /* Text */
+  width: 230px;
+  height: 50px;
+
+  /* text-base/leading-6/font-medium */
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 150%;
+  /* identical to box height, or 150% */
+
+  /* white */
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#line {
+  /* Line 17 */
+  position: absolute;
+  width: 446px;
+  height: 0px;
+  left: 52px;
+  top: 364px;
+
+  border: 1px solid #2f3e53;
+}
+
+.rectangle {
+  /* Rectangle 95 */
+  color: #55f991;
+  text-align: center;
+
+  background-image: url("dots.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background: #273549;
+  border-radius: 6px;
+}
+
+#top-left {
+  position: absolute;
+  width: 211px;
+  height: 39px;
+  left: 52px;
+  top: 399px;
+}
+#top-right {
+  position: absolute;
+  width: 211px;
+  height: 39px;
+  left: 287px;
+  top: 399px;
+}
+#bot-left {
+  position: absolute;
+  width: 211px;
+  height: 39px;
+  left: 52px;
+  top: 465px;
+}
+#bot-right {
+  position: absolute;
+  width: 211px;
+  height: 39px;
+  left: 287px;
+  top: 465px;
+}

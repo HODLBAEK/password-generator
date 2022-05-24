@@ -1,6 +1,5 @@
 # password-generator
 
-generating random passwords
+This page generates 4 random passwords when you press the green button in the middle
 
-a side project about generating random passwords
-Best viewed using Google Chrome
+It is best viewed by using Google Chrome browser
